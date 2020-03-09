@@ -1,0 +1,19 @@
+1. The aim of this project is to check if it is possible to predict the crash severity using historical data pertaining location, traffic data, day of week, time, and road condition.
+2. Given the content in the dataset this is how we classify the severity of accidents – ‘Fatal’ and ‘Hospitalization’ to be categorised as a “Severe”, while ‘Medically treated’ and ‘Minor injury’ as “Not Severe”.
+
+Prject goals breakdown :
+1. To show that severity of a crash is predictable.
+2. To predict the crash severity of a road accident.
+3. Enable to recognize the influential predictors of the crash severity.
+
+To work on this project we fetched the Crash data and Traffic data from freely available online sources.
+And to narrow the scope of project we limit our research only to South East QLD and Sunshine Coast  (postcode 4000 – 4800) and within limited longitude and latitude.
+
+Following are Project Outcome post creating a model and testing it on Crash Accidents and Traffic parameters.
+
+a. Crash severity are clearly influenced by the horizontal shape of the road.
+b. Although the total number of crashes on Curved road is relatively small, crashes on curved roads are more severe.
+c. Around 60% of crashes on Curved-Obscured view roads are Severe compared to 40% on Straight roads.
+d. Day of the week seems to have a very small influence on variability between Severe and Not Severe crashes.
+e. For total crashes, Friday and Thursday seem to be the highest.
+f. But for Severe crashes, Sunday and Saturday are the highest with 49.2% and 46.4% respectively.
